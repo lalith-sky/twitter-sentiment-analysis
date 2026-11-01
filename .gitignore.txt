@@ -1,0 +1,22 @@
+# Model weights and checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Datasets and archives
+data/
+*.zip
+*.csv
+!results/*.csv
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
